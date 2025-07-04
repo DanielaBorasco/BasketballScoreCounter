@@ -1,20 +1,28 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
   }  
 
 body {
     color: #fff;
     font-family: 'Cursed Timer ULiL', sans-serif;
     text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .container {
     display: flex;
+    gap: 50px;
     justify-content: space-evenly;
     background-color: #1B244A;
     max-width: 574px;
     padding: 30px 40px;
+    border-radius: 10px;
 }
 
 .board-title-home {
